@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPT University - Students</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header, .footer {
+            background-color: #f7931e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        .students {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .student-card {
+            background: white;
+            padding: 15px;
+            margin: 10px;
+            width: 45%;
+            text-align: center;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+        .submit-btn {
+            background: #f7931e;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .search-bar {
+            text-align: right;
+            margin: 10px;
+        }
+        .banner {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>FPT UNIVERSITY</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Tìm kiếm">
+        </div>
+    </div>
+   
+    </div>
+    <div class="container">
+        <h2>Students Detail</h2>
+        <div class="students">
+            <div class="student-card">
+                <img src="https://cdn2.fptshop.com.vn/small/avatar_trang_1_cd729c335b.jpg
+                " alt="Student">
+                <p>Nguyễn Quang Thanh</p>
+                <p>DE180740 - Đà Nẵng</p>
+                <label><input type="radio" name="student1" value="Present"> Present</label>
+                <label><input type="radio" name="student1" value="Absent"> Absent</label>
+                <button class="submit-btn">Submit</button>
+            </div>
+
+            
+            <div class="student-card">
+                <img src="https://cdn2.fptshop.com.vn/small/avatar_trang_1_cd729c335b.jpg
+                " alt="Student">
+                <p>Tấn Quang Triển</p>
+                <p>DE180679 - Đà Nẵng</p>
+                <label><input type="radio" name="student2" value="Present"> Present</label>
+                <label><input type="radio" name="student2" value="Absent"> Absent</label>
+                <button class="submit-btn">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Hòa Hải, Đà Nẵng</p>
+        <p>Email: support@fpt.edu.vn | Phone: +84 123 456 789</p>
+        <p>© 2023 FPT University</p>
+    </div>
+</body>
+</html>
