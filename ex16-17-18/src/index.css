@@ -1,0 +1,90 @@
+/* ====== NỀN ỨNG DỤNG ====== */
+body {
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* ====== KHUNG CHÍNH ====== */
+.app-container {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  width: 100%;
+}
+
+/* ====== CÁC CARD BÀI TẬP ====== */
+.custom-card {
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px; /* Cách nhau 1cm (10px) */
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ====== MÀU SẮC RIÊNG CHO TỪNG BÀI ====== */
+.event-card {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+
+.render-card {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+.snapshot-card {
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
+}
+
+/* ====== ICON HIỆU ỨNG ====== */
+.icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.custom-card:hover .icon {
+  color: #333;
+}
+
+/* ====== CÁC NÚT BẤM ====== */
+.custom-button {
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 50px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Nút Increase */
+.increase-btn {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+/* Nút Save */
+.save-btn {
+  background: linear-gradient(45deg, #ffcc00, #ff8800);
+}
+
+/* Nút Restore */
+.restore-btn {
+  background: linear-gradient(45deg, #36d1dc, #5b86e5);
+}
+
+/* Hiệu ứng hover cho nút */
+.custom-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
