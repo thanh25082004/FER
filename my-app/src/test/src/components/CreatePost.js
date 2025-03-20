@@ -15,7 +15,7 @@ const CreatePost = () => {
   };
 
   return (
-    <Container className="d-flex justify-content-center align-items-center vh-100">
+    <Container className="d-flex justify-content-center align-items-center vh-100" style={{ backgroundColor: "#ffc0cb" }}>
       <Card className="p-4 shadow" style={{ width: "400px", borderRadius: "12px" }}>
         <h3 className="text-center">✍️ Tạo bài viết</h3>
         <Form onSubmit={handleSubmit}>

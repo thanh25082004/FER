@@ -4,7 +4,6 @@ import InputValidation from "./components/InputValidation";
 import EmailPasswordForm from "./components/EmailPasswordForm";
 import FullForm from "./components/FullForm";
 
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
