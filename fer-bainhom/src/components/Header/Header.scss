@@ -1,0 +1,27 @@
+@import "../../common/colors.scss";
+// Done UI
+.header {
+  background-color: #141414;
+  height: 72px;
+  padding: 0px 40px;
+  display: flex
+;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 1000%;
+  top: 0;
+  z-index: 100;
+}
+.logo {
+  background: #ccc;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.user-image, .user-image img{
+    width: 38px;
+    height: 38px;
+}

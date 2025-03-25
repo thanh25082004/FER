@@ -7,6 +7,7 @@ const Login = lazy(() => import("./page/Login"));
 const PostList = lazy(() => import("./components/PostList"));
 const CreatePost = lazy(() => import("./components/CreatePost"));
 const EditPost = lazy(() => import("./components/EditPost"));
+const SearchPosts = lazy(() => import("./components/SearchPosts"));
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
           <Route path="/posts" element={<PostList />} />
           <Route path="/create" element={<CreatePost />} />
           <Route path="/edit/:id" element={<EditPost />} />
+          <Route path="/SearchPosts" element={<SearchPosts />} />
+
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Suspense>

@@ -1,0 +1,61 @@
+.title-text{
+  background-color: darkblue;
+}
+
+.blog-section{
+  background-color: gainsboro;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+.blog{
+  background-color: white;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  position: relative;
+}
+
+.absolute-box{
+  position: absolute;
+  top: 180px;
+  width: 90%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 4px;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.blog-content{
+  margin-top: 40px;
+  padding: 10px;
+  flex: 1;
+  padding: 10px;
+}
+
+.image{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.button{
+  background-color: orange;
+  width: 100%;
+  padding: 4px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}

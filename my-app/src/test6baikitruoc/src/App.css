@@ -1,0 +1,110 @@
+/* Reset một số style mặc định */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #4a5568 !important; /* Màu xám đậm thay vì màu primary */
+  border-bottom: none;
+}
+
+/* Company name styling */
+.company-name {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+/* Badge styling */
+.badge.bg-light {
+  background-color: #edf2f7 !important;
+  color: #4a5568 !important;
+}
+
+.badge.bg-success {
+  background-color: #48bb78 !important;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #4a5568;
+  border-color: #4a5568;
+}
+
+.btn-primary:hover {
+  background-color: #2d3748;
+  border-color: #2d3748;
+}
+
+.btn-outline-primary {
+  color: #4a5568;
+  border-color: #4a5568;
+}
+
+.btn-outline-primary:hover {
+  background-color: #4a5568;
+  border-color: #4a5568;
+}
+
+/* Search form styling */
+.form-control {
+  border: 1px solid #e2e8f0;
+  padding: 0.5rem 1rem;
+}
+
+.form-control:focus {
+  border-color: #4a5568;
+  box-shadow: 0 0 0 0.2rem rgba(74, 85, 104, 0.25);
+}
+
+/* Text colors */
+.text-muted {
+  color: #718096 !important;
+}
+
+/* Spacing */
+.dates {
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+/* Requirements list */
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+}
+
+/* Job title hover effect */
+.job-title {
+    transition: color 0.2s;
+}
+
+.job-title:hover {
+    color: #edf2f7;
+    text-decoration: underline;
+}
+
+/* Detail page specific styles */
+.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+}
+
+.fs-6 {
+    font-size: 1rem !important;
+}
